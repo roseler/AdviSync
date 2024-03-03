@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Add your styles here */
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap");
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #d9d9d9;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
+  height: 161px;
+  top: 0;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: #ffffff;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  padding-top: 0px;
+  min-height: 100vh; /* Set min-height to 100vh */
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+  top: 0; /* Add this line to make the body go to the top */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 50%; /* Change border-radius to 50% to make it a circle */
 }
+
+.college {
+  color: #1573b6;
+  text-align: center;
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 180px;
+  top: 46px;
+  width: 790px;
+  height: 58px;
+}
+
+.batsu {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 210px;
+  top: 80px;
+  width: 718px;
+  height: 34px;
+}
+
+.login-form {
+  width: 502.5px;
+  height: 478.5px;
+  overflow: visible;
+  color: #000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.login {
+  color: #000000;
+  text-align: center;
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 24px;
+  font-weight: 400;
+  top: 299px;
+}
+.line-1 {
+  width: 80%;
+  height: 2px;
+  background-color: #9e9b9b;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rectangle-2 {
+  margin-right: 0px;
+}
+.username-input,
+.password-input {
+  width: 75%;
+  height: 50px;
+  border-radius: 2px;
+  border: 1px solid #9e9b9b;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+}
+.login-button {
+  width: 15%;
+  height: 35px;
+  background-color: #1573b6;
+  border-radius: 40px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "BIZ UDPMincho", serif;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+  border: none;
+}
+.lgn-btn {
+  display: flex;
+}
+.forgot-pass-button {
+  color: #148e00;
+  text-align: center;
+  font-family: "BizUdpMincho-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  float: left;
+  margin-top: 35px;
+  margin-left: 50px;
+  padding: 3px;
+}
+.sign-up-button {
+  color: #148e00;
+  text-align: center;
+  font-family: "BizUdpMincho-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  float: right;
+  margin-top: 35px;
+  margin-right: 50px;
+  padding: 3px;
+  cursor: pointer;
+}
+

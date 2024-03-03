@@ -1,0 +1,7 @@
+{
+  "name": "advisync",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
