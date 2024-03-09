@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Add your styles here */
 @import url("https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap");
 
@@ -21,15 +25,18 @@ body {
   box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
   top: 0; /* Add this line to make the body go to the top */
 }
-
+.cics{
+  min-height: 161px;
+}
 .logo {
-  height: 5px;
-  width: 5px;
+  height: 139px;
+  width: 139px;
   border-radius: 50%;
-  position: absolute;
-  margin-top: 5px;
-  margin-left: 10px;
-  border-radius: 50%; /* Change border-radius to 50% to make it a circle */
+  margin-top: 10px;
+  margin-left: 30px;
+  position: absolute; /* Add this line */
+  top: 2px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
 }
 
 .college {

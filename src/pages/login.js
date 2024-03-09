@@ -2,15 +2,18 @@ import "../App.css";
 import React from "react";
 import logo from "../img/cics.png";
 import signup from "./signup";
+import {useNavigate, Link} from "react-router-dom";
+import cics from "../img/cics_bldg1.jpg";
 
-const navigateTo = (path) => {
-  window.location.href = signup;
-};
+
 
 function login() {
   return (
     <body>
       <header className="App-header">
+      <div className="cics-bldg">
+          <img src={cics} alt="cics" />
+        </div>
         <div className="logo">
           <img src={logo} alt="logo" />
         </div>
@@ -52,14 +55,14 @@ function login() {
             <button className="login-button">Log in</button>
           </div>
           <div className="forgot-pass">
-            <button className="forgot-pass-button">
+            <Link className="forgot-pass-button">
               Forgot Password? Click here
-            </button>
+            </Link>
           </div>
           <div className="sign-up">
-        <button className="sign-up-button" onClick={() => navigateTo('/signup')}>
+        <Link className="sign-up-button" to="signup">
           Don’t have an account? Click here
-        </button>
+        </Link>
       </div>
 
         </div>
