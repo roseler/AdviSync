@@ -2,23 +2,21 @@ import "../App.css";
 import React from "react";
 import logo from "../img/cics.png";
 import signup from "./signup";
-import {useNavigate, Link} from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import cics from "../img/cics_bldg1.jpg";
-
-
 
 function login() {
   return (
     <body>
       <header className="App-header">
-      <div className="cics-bldg">
+        <div className="cics-bldg">
           <img src={cics} alt="cics" />
         </div>
         <div className="logo">
           <img src={logo} alt="logo" />
         </div>
         <div className="college">COLLEGE OF COMPUTING SCIENCES</div>
-        <div className="batsu">BatStateU Alangilan Campus </div>
+        <div className="my-5 batsu">BatStateU Alangilan Campus </div>
       </header>
       <main>
         <div className="login-form">
@@ -40,37 +38,37 @@ function login() {
           <div className="login">LOGIN</div>
           <div className="line-1"></div>
           <div className="username"></div>
-          <input
-            type="email"
-            className="username-input"
-            placeholder="Username"
-          />
-          <div className="password"></div>
-          <input
-            type="password"
-            className="password-input"
-            placeholder="Password"
-          />
+          <div className="flex justify-center">
+            <input
+              type="email"
+              className="w-5/6 py-2 my-10 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow"
+              placeholder="Username"
+            />
+          </div>
+          <div className="flex justify-center">
+            <input
+              type="password"
+              className="w-5/6 py-2 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow"
+              placeholder="Password"
+            />
+          </div>
           <div className="lgn-btn">
-            <button className="login-button">Log in</button>
+            <button className="login-button bg-sky-500 hover:bg-sky-700">Log in</button>
           </div>
           <div className="forgot-pass">
-            <Link className="forgot-pass-button">
+            <Link className="forgot-pass-button hover:text-green-500">
               Forgot Password? Click here
             </Link>
           </div>
           <div className="sign-up">
-        <Link className="sign-up-button" to="signup">
-          Don’t have an account? Click here
-        </Link>
-      </div>
-
+            <Link className="sign-up-button hover:text-green-500" to="signup">
+              Don’t have an account? Click here
+            </Link>
+          </div>
         </div>
       </main>
     </body>
   );
 }
-
-
 
 export default login;
