@@ -15,7 +15,7 @@ function signup() {
         <div className="login-form">
           <svg
             className="rectangle-2"
-            width="503"
+            width="508"
             height="88"
             viewBox="0 0 499 88"
             fill="none"

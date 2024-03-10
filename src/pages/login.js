@@ -19,10 +19,10 @@ function login() {
         <div className="my-5 batsu">BatStateU Alangilan Campus </div>
       </header>
       <main>
-        <div className="login-form">
+        <div className="login-form ">
           <svg
             className="rectangle-2"
-            width="503"
+            width="508"
             height="88"
             viewBox="0 0 499 88"
             fill="none"
